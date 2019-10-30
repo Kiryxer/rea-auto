@@ -92,23 +92,23 @@
 
   <section class="form-contacts">
     <div class="container">
-      <form class="form-contacts__form">
+      <form class="form-contacts__form" action="mail.php" method="POST">
         <label>
-          Имя *<input type="text" class="form-contacts__name" placeholder="Введите ваше имя">
+          Имя *<input type="text" class="form-contacts__name" placeholder="Введите ваше имя" name="name">
         </label>
         <label>
-          Email *<input type="email" class="form-contacts__email" placeholder="Введите ваш email">
+          Email *<input type="email" class="form-contacts__email" placeholder="Введите ваш email" name="email">
         </label>
         <label>Тема вопроса</label>
         <div class="select">
-          <select>
+          <select name="subject">
             <option value="Заказ пропуска">Заказ пропуска</option>
             <option value="Оформление пропуска">Оформление пропуска</option>
             <option value="Получение пропуска">Получение пропуска</option>
           </select>
         </div>
-        <label>Ваш вопрос *<textarea></textarea></label>
-        <input type="button" class="button" value="Отправить">
+        <label>Ваш вопрос *<textarea name="message"></textarea></label>
+        <input type="submit" class="button" value="Отправить">
       </form>
     </div>
 
