@@ -243,24 +243,31 @@ a{
 
 .form-contacts__form input{
   margin-bottom: 20px;
-  width: 250px;
+  width: 25%;
   height: 40px;
   outline: none;
   border: 1px solid #e6e6e6;
-  color: #000;
+  font-size: 14px;
+  color: #212020;
   background-color: #f9f9f9;
   padding: 0px 10px;
+}
+.form-contacts__form input::placeholder{
+  font-size: 14px;
+  color: #212020;
 }
 
 .form-contacts__form select{
   -webkit-appearance: none;
   appearance: none;
-  width: 250px;
+  width: 25%;
   height: 40px;
   margin-bottom: 20px;
   background-color: #f9f9f9;
   padding: 0px 10px;
   outline: none;
+  font-size: 14px;
+  color: #212020;
 }
 
 .form-contacts__form .select{
@@ -275,19 +282,21 @@ a{
   border-color: #000 transparent transparent transparent;
   position: absolute;
   top: 50%;
-  right: 75%;
+  right: 76%;
   margin-top: -3px;
 }
 
 .form-contacts__form textarea{
   padding: 10px;
-  width: 500px;
+  width: 50%;
   height: 200px;
   resize: none;
   margin-bottom: 40px;
   background-color: #f9f9f9;
   outline: none;
   border: 1px solid #e6e6e6;
+  font-size: 14px;
+  color: #212020;
 }
 
 /* Footer-contacts */

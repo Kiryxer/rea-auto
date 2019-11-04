@@ -1,0 +1,94 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+}
+
+.container{
+  width: 100%;
+  background: linear-gradient(-45deg, #fff, #4d667f);
+  margin: 0 auto;
+}
+.container-reg{
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-reg__form{
+  width: 500px;
+  background-color: #fff;
+  padding: 65px 55px 50px;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.reg-form{
+  width: 100%;
+  text-align: center;
+}
+.reg-form input,
+.reg-form button{
+  font-family: 'Raleway', sans-serif;
+  height: 60px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  color: #212020;
+  outline-color: #0b2d50;
+  border: 1px solid #4d667f;
+  margin-bottom: 20px;
+}
+.reg-form button{
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #4d667f;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color .2s linear;
+}
+.reg-form button:hover{
+  background-color: #17202b;
+}
+.reg-form input::placeholder{
+  font-size: 15px;
+  color: #212020;
+  font-family: 'Raleway', sans-serif;
+}
+.reg-form__title{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #212020;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.exists-account,
+.main{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: #212020;
+  margin-bottom: 10px;
+}
+.main{
+  margin-bottom: 0;
+}
+.exists-account a,
+.main a{
+  text-decoration: none;
+  color: #0b2d50;
+}
+.exists-account a:hover,
+.main a:hover{
+  text-decoration: underline;
+}

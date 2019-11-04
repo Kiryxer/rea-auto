@@ -1,0 +1,97 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+}
+
+.container{
+  width: 100%;
+  background: linear-gradient(45deg, #fff, #4d667f);
+  margin: 0 auto;
+}
+.container-login{
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-login__form{
+  width: 500px;
+  background-color: #fff;
+  padding: 65px 55px 50px;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.login-form{
+  width: 100%;
+  text-align: center;
+}
+.login-form input,
+.login-form button{
+  font-family: 'Raleway', sans-serif;
+  height: 60px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  color: #212020;
+  outline-color: #0b2d50;
+  border: 1px solid #4d667f;
+  margin-bottom: 20px;
+}
+.login-form button{
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #4d667f;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color .2s linear;
+}
+.login-form button:hover{
+  background-color: #17202b;
+}
+.login-form input::placeholder{
+  font-size: 15px;
+  color: #212020;
+  font-family: 'Raleway', sans-serif;
+}
+.login-form__title{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #212020;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.reset-text,
+.create-account,
+.main{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: #212020;
+  margin-bottom: 10px;
+}
+.main{
+  margin-bottom: 0;
+}
+.reset-text a,
+.create-account a,
+.main a{
+  text-decoration: none;
+  color: #0b2d50;
+}
+.reset-text a:hover,
+.create-account a:hover,
+.main a:hover{
+  text-decoration: underline;
+}
