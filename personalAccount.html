@@ -10,6 +10,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/personalAccount.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
   <title>Личный кабинет</title>
 </head>
 
@@ -76,36 +78,119 @@
   </div>
 
   <div class="main">
-    <div class="menu">
-    </div>
-    <div class="container menu__container">
-      <div class="menu__item">
-        <div class="main__item">
-          <a href="">Главная</a>
+    <div class="container">
+      <div class="main__inner">
+        <div class="menu">
+          <div class="menu__item">
+            <div class="main-page">
+              <a href="index.html">Главная</a>
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="view-order">
+              <a href="viewOrder.html">Просмотр состояния заказа на пропуск</a>
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="search-order">
+              <a href="searchOrder.html">Поиск заказа на пропуск</a>
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="sorting-order">
+              <a href="sortOrder.html">Сортировка заказов на пропуск</a>
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="create-order">
+              <a href="createOrder.html">Заказ пропуска</a>
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="help">
+              <a href="contact.html">Помощь</a>
+            </div>
+          </div>
+          <div class="menu__item">
+            <div class="quit">
+              <a href="#">Выход</a>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="info__title">
+            Мой личный кабинет
+          </div>
+          <div class="info__title-about">
+            Информация об аккаунте
+          </div>
+          <div class="info__about">
+            <div class="info__about-login">
+              Логин <span>login</span>
+            </div>
+            <div class="info__about-fio">
+              ФИО <span>ФИО</span>
+            </div>
+            <div class="info__about-email">
+              Email <span>email</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="menu__item">
-        <div class="view-order">
-          <a href="">Просмотр состояния заказа на пропуск</a>
-        </div>
-      </div>
-      <div class="menu__item">
-        <div class="search-order">
-          <a href="">Поиск заказа на пропуск</a>
-        </div>
-      </div>
-      <div class="menu__item">
-        <div class="sorting-order">
-          <a href="">Сортировка заказов на пропуск</a>
-        </div>
-      </div>
-      <div class="menu__item">
-        <div class="create-order">
-          <a href="">Заказ пропуска</a>
-        </div>
-      </div>
+
     </div>
   </div>
+
+  <footer class="footer-contacts">
+    <div class="container">
+      <div class="footer-contacts__inner">
+        <div class="footer-contacts__location">
+          <p>Наше местоположение</p>
+          <p>Российская Федерация, 117997, Москва, Стремянный переулок, дом 36</p>
+        </div>
+
+        <div class="footer-contacts__schedule">
+          <p>График работы:</p>
+          <p>Понедельник - Пятница 7:00 - 22:00<br>
+            Суббота <br>7:00 - 21:00<br>
+            Воскресенье<br> Выходной</p>
+        </div>
+
+        <div class="footer-contacts__social">
+          <p>Ссылки на соц.сети</p>
+          <a class="footer-contacts__social__front" href="https://vk.com/kiryxer">
+            <img src="img/social/vk.png" alt="Ссылка на ВК front-end">
+          </a>
+          <a href="https://vk.com/lvcckvmvn">
+            <img src="img/social/vk.png" alt="Ссылка на ВК back-end">
+          </a>
+        </div>
+
+        <div class="footer-contacts__comm">
+          <p>Связаться с нами</p>
+          <p>
+            <a href="tel:+79778828723" class="footer-contacts__comm__phone">+79778828723</a>
+            <a href="mailto:kiryxer@gmail.com" class="footer-contacts__comm__email">
+              kiryxer@gmail.com
+            </a>
+            <a href="tel:+79653512302" class="footer-contacts__comm__phone">+79653512302</a>
+            <a href="mailto:igorsuvid@gmail.com" class="footer-contacts__comm__email">
+              igorsuvid@gmail.com
+            </a>
+          </p>
+        </div>
+        <iframe class="footer-contacts__map" src="https://yandex.ru/map-widget/v1/-/CGDjYRzj" width="560" height="400"
+          frameborder="1" allowfullscreen="true"></iframe>
+      </div>
+
+      <div class="footer-contacts__copy">
+        <p> &copy; 2019 Федеральное государственное бюджетное образовательное учреждение высшего образования «Российский
+          экономический университет имени Г.В. Плеханова»</p>
+      </div>
+
+    </div>
+  </footer>
+
 </body>
 
 </html>

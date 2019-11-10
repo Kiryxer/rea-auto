@@ -1,0 +1,46 @@
+.footer-contacts{
+  background-color: #17202b;
+  color: #babdc0;
+  padding: 10px 0px;
+  font-size: 13px;
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-contacts__inner{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #4d667f;
+  margin-bottom: 10px;
+}
+
+.footer-contacts__location{
+  max-width: 150px;
+}
+
+.footer-contacts__schedule{
+  max-width: 150px;
+}
+
+.footer-contacts__social{
+  max-width: 130px;
+}
+
+.footer-contacts__social__front{
+  margin-right: 40px;
+}
+
+.footer-contacts__comm{
+  max-width: 110px;
+}
+.footer-contacts__comm__phone,
+.footer-contacts__comm__email{
+  text-decoration: none;
+  color: #babdc0;
+}
+
+.footer-contacts__map{
+  max-width: 350px;
+  max-height: 250px;
+  margin-bottom: 10px;
+}

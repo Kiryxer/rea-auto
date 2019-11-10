@@ -1,0 +1,40 @@
+.header{
+  background-color: #17202b;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav__link{
+  padding: 3.5px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+
+  transition: background .1s linear;
+}
+
+.nav__link-active{
+  background: #960c1c;
+}
+
+.nav__link:nth-child(6){
+  margin: 0;
+}
+.nav__link:last-child {
+  margin: 0;
+}
+
+.nav__link:hover{
+  background: #960c1c;
+}
