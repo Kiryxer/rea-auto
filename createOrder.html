@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/createOrder.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
-  <title>Заказ авто. пропусков РЭУ</title>
+  <title>Заказ пропуска</title>
 </head>
 
 <body>
@@ -32,7 +32,6 @@
       </nav>
     </div>
   </header>
-
   <div class="intro">
     <div class="container">
       <div class="intro__inner">
@@ -56,7 +55,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div> <!-- Intro -->
 
@@ -67,69 +65,66 @@
         <a href="https://www.rea.ru/ru/org/default.aspx">Структура</a>
         <a href="https://www.rea.ru/ru/Pages/Education.aspx">Образование</a>
         <a href="https://www.rea.ru/ru/pages/academiclife.aspx">Наука</a>
-        <a href="https://www.rea.ru/ru/org/managements/Pages/mezhdupr.aspx">Международная деятельность</a>
+        <a href="https://www.rea.ru/ru/org/managements/Pages/mezhdupr.aspx">
+          Международная деятельность
+        </a>
+      </div>
+      <div class="breadrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item"><a href="index.html">Главная &rarr;</a></li>
+          <li class="breadcrumbs__item"><a href="personalAccount.html">Личный кабинет &rarr;</a></li>
+          <li class="breadcrumbs__item breadcrumbs__item-current">Заказ пропуска</li>
+        </ul>
       </div>
     </div>
-  </div>
+  </div> <!-- Intro Header -->
 
-  <section class="services">
+
+  <section class="create-order">
     <div class="container">
-      <div class="services__top">
-        <div class="services__title-box">
-          <div class="services__title">Наши услуги</div>
-          <div class="services__text">Обработка заявок на разные виды пропусков.</div>
-        </div>
-        <div class="services__btn">
-          <a href="#">Показать все услуги
-          </a>
+      <div class="create-order__top">
+        <div class="create-order__title-box">
+          <div class="create-order__title">
+            <h2>Заказ пропуска</h2>
+          </div>
+          <div class="create-order__text">На этой странице вы можете оформить заказ на&nbsp;нужный вам пропуск, заполнив
+            необходимые данные.</div>
         </div>
       </div>
       <div class="services__items">
         <div class="services__item">
           <img src="img/services-1.png" alt="">
-          <div class="services__item-title">Автомобильные пропуска</div>
-          <div class="services__item-text">Подача заявки на автомобильный пропуск в РЭУ Им. Г.В. Плеханова</div>
+          <div class="services__item-title">Автомобильный пропуск</div>
+          <div class="services__item-text">Данный пропуск требуется для въезда на стоянку, которая находится на территории ВУЗа</div>
           <div class="services__item-btn">
-            <a href="createOrder.html" class="services__item-link">Подробнее</a>
-            <a href="createOrder.html" class="default-btn">
+            <a data-fancybox data-src="#modal1" href="javascript:;" class="default-btn">
               Заказать
             </a>
           </div>
         </div>
         <div class="services__item">
           <img src="img/services-2.png" alt="">
-          <div class="services__item-title">Временные пропуска</div>
-          <div class="services__item-text">Подача заявки на временный пропуск в РЭУ Им. Г.В. Плеханова</div>
+          <div class="services__item-title">Временный пропуск</div>
+          <div class="services__item-text">Данный пропуск необходим, для прохода на территорию ВУЗа, пока вам не выдали постоянный пропуск</div>
           <div class="services__item-btn">
-            <a href="createOrder.html" class="services__item-link">Подробнее</a>
-            <a href="createOrder.html" class="default-btn">
+            <a data-fancybox data-src="#modal2" href="javascript:;" class="default-btn">
               Заказать
             </a>
           </div>
         </div>
         <div class="services__item">
           <img src="img/services-3.png" alt="">
-          <div class="services__item-title">Постоянный пропуска</div>
-          <div class="services__item-text">Подача заявки на постоянный пропуск в РЭУ Им. Г.В. Плеханова</div>
+          <div class="services__item-title">Постоянный пропуск</div>
+          <div class="services__item-text">Данный пропуск необходим для постоянного посещения ВУЗа, т.е. для студентов и сотрудников</div>
           <div class="services__item-btn">
-            <a href="createOrder.html" class="services__item-link">Подробнее</a>
-            <a href="createOrder.html" class="default-btn">
+            <a data-fancybox data-src="#modal3" href="javascript:;" class="default-btn">
               Заказать
             </a>
           </div>
         </div>
       </div>
     </div>
-  </section> <!-- Services -->
-
-
-  <div id="modal">
-    <form>
-      <input type="text" placeholder="Ваше имя">
-      <input type="text" placeholder="Ваше телефон">
-      <input type="submit" value="Отправить">
-    </form>
-  </div>
+  </section>
 
   <footer class="footer-contacts">
     <div class="container">
@@ -181,11 +176,57 @@
     </div>
   </footer>
 
+  <div id="modal1">
+    <div class="title">
+      <h2>Оформление заявки на автомобильный пропуск</h2>
+    </div>
+    <form>
+      <input type="text" placeholder="Ваша фамилия">
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваше отчество">
+      <input type="text" placeholder="Номер вашего автомобиля">
+      <input type="text" placeholder="Цвет вашего автомобиля">
+      <input type="text" placeholder="Ваша должность">
+      <input type="text" placeholder="Ваше подразделения">
+      <input type="text" placeholder="Ваш номер телефона">
+      <label><span>Скан служебной записки</span><input type="file"></label>
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <div id="modal2">
+    <div class="title">
+      <h2>Оформление заявки на временный пропуск</h2>
+    </div>
+    <form>
+      <input type="text" placeholder="Ваша фамилия">
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваше отчество">
+      <input type="text" placeholder="Ваш факультет">
+      <label><span>Скан служебной записки</span><input type="file"></label>
+      <!-- <label><span>Фото</span><input type="file"></label> -->
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <div id="modal3">
+    <div class="title">
+      <h2>Оформление заявки на постоянный пропуск</h2>
+    </div>
+    <form>
+      <input type="text" placeholder="Ваша фамилия">
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваше отчество">
+      <input type="text" placeholder="Ваш факультет">
+      <label><span>Скан служебной записки</span><input type="file"></label>
+      <label><span>Фото</span><input type="file"></label>
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
-
 </body>
 
 </html>

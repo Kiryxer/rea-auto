@@ -186,7 +186,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/home-icon.png);
+  background-image: url(../img/menu/home-icon.png);
 }
 
 .view-order a::before {
@@ -197,7 +197,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/view-icon.png);
+  background-image: url(../img/menu/view-icon.png);
 }
 
 .search-order a::before {
@@ -208,7 +208,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/search-icon.png);
+  background-image: url(../img/menu/search-icon.png);
 }
 
 .sorting-order a::before {
@@ -219,7 +219,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/sort-icon.png);
+  background-image: url(../img/menu/sort-icon.png);
 }
 
 .create-order a::before {
@@ -230,7 +230,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/create-order-icon.png);
+  background-image: url(../img/menu/create-order-icon.png);
 }
 
 .help a::before {
@@ -241,7 +241,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/help-icon.png);
+  background-image: url(../img/menu/help-icon.png);
 }
 
 .quit a::before {
@@ -252,7 +252,7 @@ a {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/exit-icon.png);
+  background-image: url(../img/menu/exit-icon.png);
 }
 
 .main__inner {
