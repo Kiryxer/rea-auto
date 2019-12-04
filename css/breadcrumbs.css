@@ -1,0 +1,17 @@
+.breadcrumbs__list{
+  margin: 0;
+  padding: 15px 0px 0px;
+  list-style: none;
+  color: #fff;
+  font-size: 13px;
+}
+.breadcrumbs__list__item{
+  display: inline-block;
+}
+.breadcrumbs__list__item-current{
+  color: #babdc0;
+}
+.breadcrumbs__list__item a{
+  text-decoration: none;
+  color: #fff;
+}

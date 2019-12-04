@@ -1,0 +1,100 @@
+.intro{
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro__inner{
+  display: flex;
+}
+
+.intro__logo{
+  margin-right: 20px;
+}
+
+.intro__info{
+  max-width: 385px;
+  width: 100%;
+}
+
+.intro__title{
+  color: #d6d6d6;
+  margin-bottom: 10px;
+}
+
+.intro__text{
+  color: #a3a3a3;
+}
+
+.intro__link{
+  display: flex;
+  max-height: 140px;
+  height: 100%;
+  background: url("../img/map.png");
+  background-position: 0px 14px;
+  background-repeat: no-repeat;
+}
+
+.intro__branch{
+  position: relative;
+  padding: 75px 0px 0px 55px;
+  margin-right: 40px;
+  font-size: 15px;
+  max-width: 165px;
+  width: 100%;
+  color: #a3a3a3;
+}
+
+.intro__branch img{
+  position: absolute;
+  left: 19px;
+  top: 77px;
+}
+
+.intro__about{
+  position: relative;
+  padding: 75px 0px;
+  max-width: 160px;
+  width: 100%;
+  font-size: 15px;
+  color: #a3a3a3;
+}
+
+.intro__about img{
+  position: absolute;
+  left: -35px;
+  top: 77px;
+}
+
+.intro__branch a,
+.intro__about a{
+  font-size: 18px;
+  color: #d6d6d6;
+  font-weight: 700;
+}
+
+/* Intro-header */
+
+.intro-header{
+  background: #1c1c1c;
+  margin-top: 10px;
+  padding: 20px 0px 15px;
+}
+
+.intro-header__inner{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #a3a3a3;
+  border-bottom: 1px solid #a3a3a3;
+  padding: 0px 15px;
+}
+.intro-header__inner a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #d6d6d6;
+  text-decoration: none;
+  padding: 18px 0px;
+  transition: text-decoration .1s linear;
+}
+
+.intro-header__inner a:hover{
+  text-decoration: underline;
+}

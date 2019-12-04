@@ -11,8 +11,18 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/breadcrumbs.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/darkTheme/contact.css">
+  <link rel="stylesheet" href="css/darkTheme/intro.css">
+  <link rel="stylesheet" href="css/darkTheme/header.css">
+  <link rel="stylesheet" href="css/darkTheme/footer.css">
+  <link rel="stylesheet" href="css/media/footer.css">
+  <link rel="stylesheet" href="css/media/header.css">
+  <link rel="stylesheet" href="css/media/intro.css">
+  <link rel="stylesheet" href="css/media/contact.css">
   <title>Контакты</title>
 </head>
 
@@ -20,13 +30,18 @@
   <header class="header">
     <div class="container">
       <nav class="nav">
-        <div class="nav__main">
-          <a href="#" class="nav__link nav__link-active">Рус</a>
-          <a href="#" class="nav__link">Eng</a>
-          <a href="#" class="nav__link">Светлая тема</a>
-          <a href="#" class="nav__link">Темная тема</a>
-          <a href="contact.html" class="nav__link nav__link-active">Контакты</a>
+        <div class="menu__btn">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#" class="nav__link nav__link-active">Рус</a></li>
+          <li class="menu__item"><a href="#" class="nav__link">Eng</a></li>
+          <li class="menu__item"><a href="#" class="nav__link">Светлая тема</a></li>
+          <li class="menu__item"><a href="#" class="nav__link">Темная тема</a></li>
+          <li class="menu__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+        </ul>
         <a href="authorization.html" class="nav__link">Войти</a>
       </nav>
     </div>
@@ -35,9 +50,11 @@
   <div class="intro">
     <div class="container">
       <div class="intro__inner">
-        <a href="index.html">
-          <img src="img/logo.png" class="intro__logo" alt="Логотип РЭУ" height="136px">
-        </a>
+        <div class="intro__logo">
+          <a href="index.html">
+            <img src="img/logo.png" class="intro__logo" alt="Логотип РЭУ" height="136px">
+          </a>
+        </div>
         <div class="intro__info">
           <h1 class="intro__title">Российский экономический УНИВЕРСИТЕТ <br> имени Г.В. Плеханова</h1>
           <p class="intro__text">Основан в 1907 году</p>
@@ -55,6 +72,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div> <!-- Intro -->
 
@@ -65,14 +83,13 @@
         <a href="https://www.rea.ru/ru/org/default.aspx">Структура</a>
         <a href="https://www.rea.ru/ru/Pages/Education.aspx">Образование</a>
         <a href="https://www.rea.ru/ru/pages/academiclife.aspx">Наука</a>
-        <a href="https://www.rea.ru/ru/org/managements/Pages/mezhdupr.aspx">
-          Международная деятельность
-        </a>
+        <a href="https://www.rea.ru/ru/org/managements/Pages/mezhdupr.aspx">Международная деятельность</a>
       </div>
       <div class="breadrumbs">
         <ul class="breadcrumbs__list">
           <li class="breadcrumbs__list__item"><a href="index.html">Главная &rarr;</a></li>
-          <li class="breadcrumbs__list__item breadcrumbs__list__item-current">Контакты</li>
+          <li class="breadcrumbs__list__item"><a href="personalAccount.html">Личный кабинет &rarr;</a></li>
+          <li class="breadcrumbs__list__item breadcrumbs__list__item-current">Заказ пропуска</li>
         </ul>
       </div>
     </div>
@@ -164,6 +181,10 @@
 
     </div>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

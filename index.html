@@ -12,8 +12,13 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/intro.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/media/index.css">
+  <link rel="stylesheet" href="css/media/footer.css">
+  <link rel="stylesheet" href="css/media/header.css">
+  <link rel="stylesheet" href="css/media/intro.css">
   <title>Заказ авто. пропусков РЭУ</title>
 </head>
 
@@ -21,13 +26,18 @@
   <header class="header">
     <div class="container">
       <nav class="nav">
-        <div class="nav__main">
-          <a href="#" class="nav__link nav__link-active">Рус</a>
-          <a href="#" class="nav__link">Eng</a>
-          <a href="#" class="nav__link">Светлая тема</a>
-          <a href="#" class="nav__link">Темная тема</a>
-          <a href="contact.html" class="nav__link">Контакты</a>
+        <div class="menu__btn">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#" class="nav__link nav__link-active">Рус</a></li>
+          <li class="menu__item"><a href="#" class="nav__link">Eng</a></li>
+          <li class="menu__item"><a href="#" class="nav__link">Светлая тема</a></li>
+          <li class="menu__item"><a href="#" class="nav__link">Темная тема</a></li>
+          <li class="menu__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+        </ul>
         <a href="authorization.html" class="nav__link">Войти</a>
       </nav>
     </div>
@@ -36,9 +46,11 @@
   <div class="intro">
     <div class="container">
       <div class="intro__inner">
-        <a href="index.html">
-          <img src="img/logo.png" class="intro__logo" alt="Логотип РЭУ" height="136px">
-        </a>
+        <div class="intro__logo">
+          <a href="index.html">
+            <img src="img/logo.png" class="intro__logo" alt="Логотип РЭУ" height="136px">
+          </a>
+        </div>
         <div class="intro__info">
           <h1 class="intro__title">Российский экономический УНИВЕРСИТЕТ <br> имени Г.В. Плеханова</h1>
           <p class="intro__text">Основан в 1907 году</p>
@@ -120,7 +132,8 @@
         </div>
       </div>
     </div>
-  </section> <!-- Services -->
+  </section>
+  <!-- Services -->
 
 
   <div id="modal">
@@ -141,7 +154,7 @@
 
         <div class="footer-contacts__schedule">
           <p>График работы:</p>
-          <p>Понедельник - Пятница 7:00 - 22:00<br>
+          <p>Понедельник - Пятница <br> 7:00 - 22:00<br>
             Суббота <br>7:00 - 21:00<br>
             Воскресенье<br> Выходной</p>
         </div>
@@ -159,18 +172,20 @@
         <div class="footer-contacts__comm">
           <p>Связаться с нами</p>
           <p>
-            <a href="tel:+79778828723" class="footer-contacts__comm__phone">+79778828723</a>
+            <span class="footer-contacts__comm__phone">+79778828723</span>
             <a href="mailto:kiryxer@gmail.com" class="footer-contacts__comm__email">
               kiryxer@gmail.com
             </a>
-            <a href="tel:+79653512302" class="footer-contacts__comm__phone">+79653512302</a>
+            <span class="footer-contacts__comm__phone">+79653512302</span>
             <a href="mailto:igorsuvid@gmail.com" class="footer-contacts__comm__email">
               igorsuvid@gmail.com
             </a>
           </p>
         </div>
-        <iframe class="footer-contacts__map" src="https://yandex.ru/map-widget/v1/-/CGDjYRzj" width="560" height="400"
-          frameborder="1" allowfullscreen="true"></iframe>
+        <div class="footer__map">
+          <iframe class="footer-contacts__map" src="https://yandex.ru/map-widget/v1/-/CGDjYRzj" height="250px"
+            frameborder="1" allowfullscreen="true"></iframe>
+        </div>
       </div>
 
       <div class="footer-contacts__copy">

@@ -1,0 +1,39 @@
+@media(max-width: 1156px) {
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 80%;
+    min-height: 330px;
+    margin: 30px auto;
+  }
+}
+
+@media(max-width: 900px) {
+  .services__top {
+    display: block;
+  }
+  .services__title-box {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .services__title-box::before {
+    display: none;
+  }
+  .services__btn {
+    text-align: center;
+  }
+}
+
+@media(max-width: 610px) {
+
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 100%;
+    min-height: 375px;
+    margin: 30px auto;
+  }
+}

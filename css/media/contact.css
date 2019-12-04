@@ -1,0 +1,13 @@
+@media(max-width: 900px) {
+  .contacts__top {
+    display: block;
+  }
+  .contacts__title-box {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .contacts__title-box::before {
+    display: none;
+  }
+}

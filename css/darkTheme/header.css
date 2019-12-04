@@ -18,12 +18,12 @@
 
 .menu__btn div {
   height: 5px;
-  background-color: #000;
+  background-color: #a3a3a3;
   margin-bottom: 5px;
 }
 
 .header {
-  background-color: #17202b;
+  background-color: #1c1c1c;
   padding: 10px 0px;
   margin-bottom: 30px;
   font-family: 'Roboto', sans-serif;
@@ -42,13 +42,14 @@
 .nav__link {
   padding: 3.5px;
   text-decoration: none;
-  color: #fff;
+  color: #d6d6d6;
   margin-right: 20px;
-  transition: background .1s linear;
+  transition: .1s linear;
 }
 
 .nav__link-active {
-  background: #960c1c;
+  background: #fff;
+  color: #000;
 }
 
 .nav__link:nth-child(6) {
@@ -60,5 +61,6 @@
 }
 
 .nav__link:hover {
-  background: #960c1c;
+  background: #d6d6d6;
+  color: #000;
 }

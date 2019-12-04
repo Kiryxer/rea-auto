@@ -1,0 +1,33 @@
+@media(max-width: 1065px) {
+  .footer-contacts__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer__map {
+    width: 100%;
+  }
+  .footer-contacts__map {
+    width: 100%;
+  }
+}
+
+@media(max-width: 610px) {
+  .footer-contacts__location {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer-contacts__inner {
+    justify-content: space-between;
+  }
+}
+
+@media(max-width: 500px) {
+  .footer-contacts__schedule {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer-contacts__social {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 100%;
-  background: linear-gradient(45deg, #fff, #4d667f);
+  background: linear-gradient(45deg, #a3a3a3, #0e0e0e);
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .container-login__form {
   width: 500px;
-  background-color: #fff;
+  background-color: #a3a3a3;
   padding: 65px 55px 50px;
   border-radius: 15px;
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -45,10 +45,11 @@ body {
   width: 100%;
   padding: 15px;
   font-size: 15px;
-  color: #212020;
+  color: #d6d6d6;
   outline-color: #0b2d50;
   border: 1px solid #4d667f;
   margin-bottom: 20px;
+  background-color: #828282;
 }
 
 .login-form button {
@@ -66,7 +67,7 @@ body {
 
 .login-form input::placeholder {
   font-size: 15px;
-  color: #212020;
+  color: #d6d6d6;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -93,7 +94,7 @@ body {
 
 .reset-text a, .create-account a, .main a {
   text-decoration: none;
-  color: #0b2d50;
+  color: #161b7e;
 }
 
 .reset-text a:hover, .create-account a:hover, .main a:hover {

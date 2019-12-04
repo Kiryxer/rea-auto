@@ -1,0 +1,39 @@
+@media(max-width: 992px) {
+  .menu__list {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #000;
+    z-index: 10;
+  }
+  .menu__list .nav__link {
+    color: #000;
+  }
+  .menu__list a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+  }
+  .menu__list li {
+    margin-right: 0;
+  }
+  .menu__btn {
+    display: block;
+  }
+  .header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+}
+
+@media(min-width: 992px) {
+  .menu__list {
+    display: flex !important;
+  }
+}

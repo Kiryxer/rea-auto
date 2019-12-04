@@ -11,7 +11,7 @@ p {
 }
 
 body {
-  background-color: #fff;
+  background-color: #0e0e0e;
   color: #000000;
   margin: 0;
   font-size: 14px;
@@ -22,12 +22,6 @@ a {
   display: inline-block;
 }
 
-ul, li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   max-width: 1170px;
   width: 100%;
@@ -35,30 +29,11 @@ ul, li {
   padding: 0 15px;
 }
 
-.menu.open-sidebar {
-  left: 0;
-}
 /* Menu */
 
-.main-menu__btn {
-  position: absolute;
-  width: 20px;
-  height: 310px;
-  top: 15px;
-  left: 15px;
-  display: none;
-  z-index: 6;
-}
-.main-menu__btn div{
-  height: 2px;
-  background-color: #000;
-  margin-bottom: 5px;
-}
-
 .main {
-  background-color: #F5F5F5;
+  background-color: #0e0e0e;
   padding: 50px 0;
-  position: relative;
 }
 
 .menu {
@@ -67,7 +42,7 @@ ul, li {
   border-right: 1px solid #000;
 }
 
-.main-menu__item {
+.menu__item {
   color: #212020;
   font-size: 15px;
   line-height: 20px;
@@ -76,9 +51,9 @@ ul, li {
   position: relative;
 }
 
-.main-menu__item a {
+.menu__item a {
   text-decoration: none;
-  color: #000;
+  color: #a3a3a3;
 }
 
 .main-page a::before {
@@ -146,7 +121,9 @@ ul, li {
   transform: translateY(-50%);
   background-image: url(../img/menu/help-icon.png);
 }
-
+.main-page a::before, .view-order a::before, .search-order a::before, .sorting-order a::before, .create-order a::before, .help a::before, .quit a::before{
+  filter: invert(1);
+}
 .quit a::before {
   content: '';
   position: absolute;
@@ -173,7 +150,7 @@ ul, li {
   line-height: 30px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #212020;
+  color: #d6d6d6;
 }
 
 .info__about {
@@ -183,7 +160,7 @@ ul, li {
   display: flex;
   flex-direction: column;
   color: #000;
-  background-color: #fff;
+  background-color: #1c1c1c;
   box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
 
@@ -193,8 +170,9 @@ ul, li {
   width: 100%;
   font-size: 18px;
   line-height: 24px;
-  border-bottom: 1px solid #4d667f;
+  border-bottom: 1px solid #d6d6d6;
   margin-bottom: 15px;
+  color: #a3a3a3;
 }
 
 .info__about-email {
@@ -213,5 +191,5 @@ ul, li {
   line-height: 26px;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #0b2d50;
+  color: #161b7e;
 }

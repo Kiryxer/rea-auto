@@ -1,0 +1,24 @@
+@media(max-width: 992px) {
+  .menu {
+    position: absolute;
+    top: 35px;
+    left: -310px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+    background-color: #d6d6d6;
+    border: none;
+    padding: 15px 0 0 15px;
+  }
+  .info {
+    text-align: center;
+    padding-left: 0;
+  }
+  .info__about {
+    margin: 0 auto;
+  }
+  .main-menu__btn {
+    display: block;
+  }
+}
